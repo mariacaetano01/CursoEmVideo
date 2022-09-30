@@ -16,4 +16,4 @@ print (f'8 x {n} = {8*n}')
 print (f'9 x {n} = {9*n}')
 print (f'10 x {n} = {10*n}')
 
-print ('Que bom que pude ajudar ♥')
+print ('Que bom que pude ajudar ☺')
