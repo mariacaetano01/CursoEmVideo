@@ -34,15 +34,15 @@ while True:
 
     if 0 <= num <= 20:
         print(f'Você digitou o número {números[num]}')
-        game = str(input("Quer jogar de novo? (escrever sem acento!) "))
+        game = str(input("Quer jogar de novo? "))
         game.lower()
-        if game == 'sim':
+        if game.lower() in 'sim':
             continue
-        if game == "nao":
+        if game.lower() in "naonão":
             print("Obrigado por usar este programa!")
             break
         else:
-            while game != "sim" or game != "nao":
+            while game.lower() not in "simnaonão":
                 gg = str(input("Essa resposta não é válida. Quer jogar de novo? "))
 
     else:
